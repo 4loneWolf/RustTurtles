@@ -1,0 +1,20 @@
+[default]
+limits = { form = "64 kB", json = "1 MiB" }
+
+[debug]
+address = "127.0.0.1"
+port = 443
+limits = { json = "10MiB" }
+
+[nyc]
+address = "127.0.0.1"
+port = 443
+
+[release]
+address = "192.168.0.108"
+port = 443
+secret_key = "655468576D5A7134743777397A24432646294A404E635266556A586E32723575"
+
+[default.tls]
+certs = "ssl/certificate.pem"
+key = "ssl/key.pem"

@@ -1,0 +1,22 @@
+[package]
+name = "svelte-on-rust"
+version = "0.1.4"
+authors = ["Sachin Bhutani <sachin1705@gmail.com>", "Van Vuong Ngo <https://github.com/vanvuongngo>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.20.1", features = ["full"] }
+rocket = { version = "0.5.0-rc.2", features = ["tls", "secrets", "json"] }
+serde = "1.0.143"
+serde_json = "1.0.83"
+serde_derive = "1.0.143"
+rocket_contrib = "0.4.11"
+tungstenite = "*"
+uuid = "1.1.2"
+once_cell = "1.15.0"
+sqlx = { version = "0.6", features = [ "runtime-async-std-native-tls", "mysql", "json", "tls" ]}
+async-std = { version = "1", features = [ "attributes" ] }
+td_rlua = "0.1.0"
+rand = "0.8.5"

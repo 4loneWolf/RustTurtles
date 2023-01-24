@@ -1,0 +1,25 @@
+#console {
+    height: 30px;
+    width: fit-content;
+    font-family: monospace;
+    font-size: 15px;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    position:absolute;
+    top:1%;
+    left:0.3cm;
+}
+
+#turtles {
+    height: 30px;
+    width: fit-content;
+    font-family: monospace;
+    font-size: 15px;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    position:absolute;
+    top:1%;
+    left:3.2cm;
+}

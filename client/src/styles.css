@@ -1,0 +1,11 @@
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: red;
+}
